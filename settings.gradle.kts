@@ -11,6 +11,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+//        maven { url = uri("https://jitpack.io") } Will be using this when the modern API is stable.
         mavenLocal {
             content {
                 includeGroup("io.github.libxposed")
@@ -22,6 +23,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Xposed Example"
+rootProject.name = "Affranchi"
 
-include(":app")
+include(":affranchi")

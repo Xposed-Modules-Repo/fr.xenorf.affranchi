@@ -1,3 +1,3 @@
-tasks.register("Delete", Delete::class) {
-    delete(rootProject.buildDir)
+tasks.register<Delete>("cleanAll") {
+    delete(rootProject.layout.buildDirectory)
 }
